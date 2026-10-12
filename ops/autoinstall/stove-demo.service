@@ -1,0 +1,21 @@
+# SPDX-License-Identifier: GPL-3.0-only
+[Unit]
+Description=Stove kitchen kit demo
+After=local-fs.target
+
+[Service]
+Type=simple
+User=stove
+Group=stove
+WorkingDirectory=/opt/stove
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/usr/bin/python3 -m app.demo_service --host 127.0.0.1 --port 8859
+Restart=on-failure
+RestartSec=2
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+
+[Install]
+WantedBy=multi-user.target

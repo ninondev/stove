@@ -1,0 +1,15 @@
+# SPDX-License-Identifier: GPL-3.0-only
+[Unit]
+Description=Install the Stove demo on first boot
+ConditionPathExists=/var/lib/stove-firstboot/pending
+After=local-fs.target
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /opt/stove/ops/autoinstall/firstboot.sh
+TimeoutStartSec=120
+StandardOutput=journal+console
+StandardError=journal+console
+
+[Install]
+WantedBy=multi-user.target

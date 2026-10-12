@@ -1,0 +1,12 @@
+[
+  {"id": 1, "name": "宫保鸡丁", "price_jiao": 273, "unit": "份", "station": "kitchen"},
+  {"id": 2, "name": "麻婆豆腐", "price_jiao": 167, "unit": "份", "station": "kitchen"},
+  {"id": 3, "name": "鱼香茄子", "price_jiao": 219, "unit": "份", "station": "kitchen"},
+  {"id": 4, "name": "干煸四季豆", "price_jiao": 183, "unit": "份", "station": "kitchen"},
+  {"id": 5, "name": "酸辣土豆丝", "price_jiao": 129, "unit": "份", "station": "kitchen"},
+  {"id": 6, "name": "香菇青菜", "price_jiao": 151, "unit": "份", "station": "kitchen"},
+  {"id": 7, "name": "凉拌黄瓜", "price_jiao": 97, "unit": "份", "station": "cold"},
+  {"id": 8, "name": "红油豆干", "price_jiao": 113, "unit": "份", "station": "cold"},
+  {"id": 9, "name": "清蒸南瓜", "price_jiao": 139, "unit": "份", "station": "kitchen"},
+  {"id": 10, "name": "番茄蛋汤", "price_jiao": 177, "unit": "碗", "station": "kitchen"}
+]

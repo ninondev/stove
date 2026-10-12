@@ -1,0 +1,23 @@
+[project]
+name = "stove"
+version = "0.1.0"
+description = "Kitchen tickets, a take-a-number queue, and a USB installer"
+requires-python = ">=3.12"
+license = "GPL-3.0-only"
+authors = [{name = "Ninon"}]
+dependencies = []
+
+[project.optional-dependencies]
+serial = ["pyserial>=3.5"]
+test = ["pytest>=8"]
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["app*", "examples*"]
+
+[tool.setuptools.package-data]
+"app.db" = ["schema.sql"]
+"examples" = ["demo_menu.json"]
