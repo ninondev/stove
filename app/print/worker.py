@@ -177,13 +177,13 @@ class PrintManager:
                     try:
                         self._record_failure(job, str(e))
                     except Exception:
-                        pass
+                        logging.getLogger("stove.print").exception("Could not record failed job %s", job["id"])
                     break  # preserve order: do not skip ahead past a stuck job
                 else:
                     try:
                         self._record_success(job["id"])
                     except Exception:
-                        pass
+                        logging.getLogger("stove.print").exception("Could not record printed job %s", job["id"])
                     sent += 1
             return sent
         finally:
@@ -273,7 +273,7 @@ class PrintManager:
             try:
                 self._alert_cb(bad)
             except Exception:
-                pass
+                logging.getLogger("stove.print").exception("Printer alert callback failed")
         return result
 
     def health_snapshot(self) -> list[StationHealth]:
