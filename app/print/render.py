@@ -96,10 +96,8 @@ def render_station_ticket(ticket: routing.PlannedTicket, ctx: RenderContext) -> 
 
     _emit_lines(b, ticket.lines)
 
-    reasons = [ln for ln in ticket.lines if ln.ret]
-    # ret_reason is carried on PrintItem; routing copies it onto nothing — handle via extra
-    if ticket.extra.get("ret_reason"):
-        b.line(f"退菜原因：{ticket.extra['ret_reason']}")
+    for reason in dict.fromkeys(ln.ret_reason for ln in ticket.lines if ln.ret and ln.ret_reason):
+        b.line(f"退菜原因：{reason}")
 
     b.hr()
     if ticket.whole_note:

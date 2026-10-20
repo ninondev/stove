@@ -56,7 +56,9 @@ def test_attack_retreat_reason_stripped(seeded_db):
     rows = seeded_db.query("SELECT payload FROM print_jobs WHERE ticket_type='退菜单'")
     assert rows
     for row in rows:
-        _assert_no_injection(bytes(row['payload']))
+        payload = bytes(row['payload'])
+        _assert_no_injection(payload)
+        assert '退菜原因：菜'.encode('gb18030') in payload
 
 
 def test_legitimate_drawer_kick_and_cut_survive():

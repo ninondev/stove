@@ -61,6 +61,7 @@ class TicketLine:
     notes: str | None = None
     addons: list[tuple[str, int]] = field(default_factory=list)
     ret: bool = False
+    ret_reason: str | None = None
     transfer: bool = False
     held: bool = False
     combo_parent: str | None = None
@@ -115,6 +116,7 @@ def _line_from(item: PrintItem, *, ret: bool = False, transfer: bool = False,
         notes=item.notes,
         addons=list(item.addons),
         ret=ret,
+        ret_reason=item.ret_reason if ret else None,
         transfer=transfer,
 
         held=item.held and not ret and not transfer and allow_held,
