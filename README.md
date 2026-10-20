@@ -1,6 +1,5 @@
 # Stove
 
-
 Stove prints kitchen tickets, runs a take-a-number queue and comes with a USB installer for Ubuntu. The code comes from a restaurant ordering system that has been in regular use since August 2026.
 
 ```text
@@ -19,7 +18,7 @@ Stove Demo Kitchen-堂食
 流水号 No.00001
 ```
 
-That is the real output of `python3 examples/ticket_preview.py`: a kitchen ticket rendered as ESC/POS bytes and shown as text, with made-up dishes and no printer attached.
+That is what `python3 examples/ticket_preview.py` prints: a kitchen ticket rendered as ESC/POS bytes and shown as text, with made-up dishes and no printer attached.
 
 This is a partial open-source release. It has no payment or full order service, and the rest of that system stays private. The menu here is made up and the database starts empty.
 
@@ -45,7 +44,7 @@ The ticket script renders a real ESC/POS payload and shows its text. It does not
 Run the tests if pytest is already installed:
 
 ```sh
-nice -n 10 python3 -m pytest
+python3 -m pytest
 ```
 
 No third-party code is bundled. The demo and core use the Python standard library. Tests need pytest. The optional serial transport can use pyserial if it is installed. Without pyserial, it writes to a device node that you must configure first.
@@ -75,5 +74,3 @@ The service has `/health`, `/ticket`, and `/queue` paths. It is a demo. Its queu
 Copyright (c) 2026 Ninon. Licensed under GPL-3.0-only. See [LICENSE](LICENSE).
 
 Pull requests are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) and [CLA.md](CLA.md) before sending one.
-
-If this was useful to you, a star helps other people find it.

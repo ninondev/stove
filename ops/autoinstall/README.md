@@ -24,7 +24,7 @@ Set these values in your shell. The disk below is an example, not a safe default
 export STOVE_ISO_SHA256='<the checked ISO SHA256>'
 export STOVE_TARGET_DISK='/dev/vda'
 export STOVE_CONFIRM_ERASE='ERASE:/dev/vda'
-nice -n 10 bash ops/autoinstall/make_usb_iso.sh ubuntu-24.04-desktop-amd64.iso stove-demo.iso
+bash ops/autoinstall/make_usb_iso.sh ubuntu-24.04-desktop-amd64.iso stove-demo.iso
 ```
 
 The default admin account is locked. If you need local login, set
@@ -70,8 +70,8 @@ not a physical drive. Each phase may take a long time under software emulation.
 Run one phase at a time:
 
 ```sh
-nice -n 10 bash ops/autoinstall/vm_smoke.sh install stove-demo.iso vm-test
-nice -n 10 bash ops/autoinstall/vm_smoke.sh boot stove-demo.iso vm-test
+bash ops/autoinstall/vm_smoke.sh install stove-demo.iso vm-test
+bash ops/autoinstall/vm_smoke.sh boot stove-demo.iso vm-test
 ```
 
 The install phase waits for QEMU to exit. That alone does not prove success.
@@ -79,23 +79,6 @@ The boot phase looks for the first-boot local health marker in the serial log an
 then requests a clean guest shutdown. Keep both serial logs. The helper does not
 test a physical printer, USB drive, real machine, or UEFI firmware. It uses the
 QEMU default BIOS path. If the VM cannot shut down, discard its disposable image.
-
-## Optional `.deb` downloads
-
-The standard demo needs no extra `.deb` packages. None are stored in this repo or
-added by the ISO builder. `fetch_debs.sh` is an optional preparation helper for a
-future, separate system change. Run it only on Ubuntu 24.04 with network access
-authorized. It uses the configured APT sources and downloads only exact package
-versions you name:
-
-```sh
-bash ops/autoinstall/fetch_debs.sh local-debs package-name=exact-version
-```
-
-It writes `SHA256SUMS` beside the downloaded files. This file records the bytes you
-downloaded; it does not replace APT's repository trust checks. Resolve dependencies
-on a matching Ubuntu machine. This helper does not install packages and does not
-add them to the Stove image.
 
 ## Scope and checks
 

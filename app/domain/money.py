@@ -16,7 +16,7 @@ def yuan_to_jiao(yuan: float | int | str) -> int:
 def format_yuan(jiao: int) -> str:
     """Format jiao as a yuan string for tickets/UI.
 
-    258 jiao? no — jiao=2580 -> "258"; jiao=125 -> "12.5"; jiao=-90 -> "-9".
+    2580 -> "258"; 125 -> "12.5"; -90 -> "-9".
     """
     neg = jiao < 0
     j = abs(jiao)
