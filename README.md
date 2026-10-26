@@ -1,6 +1,6 @@
 # Stove
 
-Stove prints kitchen tickets, runs a take-a-number queue and comes with a USB installer for Ubuntu. The code comes from a restaurant ordering system that hired staff used regularly from August to October 2026.
+Stove prints kitchen tickets, runs a take-a-number queue. The code comes from a restaurant ordering system that hired staff used regularly from August to October 2026.
 
 ```text
 桌台号：Demo 1
