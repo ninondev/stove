@@ -1,9 +1,6 @@
-__pycache__/
-.pytest_cache/
-*.py[cod]
 *.db
 *.db-shm
 *.db-wal
-.venv/
-build/
-ops/autoinstall/debs/
+*.test
+*.out
+/bin/

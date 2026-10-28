@@ -1,0 +1,833 @@
+{
+ "texts": [
+  {
+   "s": "",
+   "width": 0,
+   "strip": "",
+   "trunc": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "text_hex": ""
+  },
+  {
+   "s": "abc",
+   "width": 3,
+   "strip": "abc",
+   "trunc": [
+    "",
+    "",
+    "a",
+    "ab",
+    "abc",
+    "abc",
+    "abc",
+    "abc",
+    "abc"
+   ],
+   "text_hex": "616263"
+  },
+  {
+   "s": "Kung Pao Chicken",
+   "width": 16,
+   "strip": "Kung Pao Chicken",
+   "trunc": [
+    "",
+    "",
+    "K",
+    "Ku",
+    "Kung ",
+    "Kung Pao C",
+    "Kung Pao Chicken",
+    "Kung Pao Chicken",
+    "Kung Pao Chicken"
+   ],
+   "text_hex": "4b756e672050616f20436869636b656e"
+  },
+  {
+   "s": "宫保鸡丁",
+   "width": 8,
+   "strip": "宫保鸡丁",
+   "trunc": [
+    "",
+    "",
+    "",
+    "宫",
+    "宫保",
+    "宫保鸡丁",
+    "宫保鸡丁",
+    "宫保鸡丁",
+    "宫保鸡丁"
+   ],
+   "text_hex": "b9acb1a3bca6b6a1"
+  },
+  {
+   "s": "ＡＢＣ全角",
+   "width": 10,
+   "strip": "ＡＢＣ全角",
+   "trunc": [
+    "",
+    "",
+    "",
+    "Ａ",
+    "ＡＢ",
+    "ＡＢＣ全角",
+    "ＡＢＣ全角",
+    "ＡＢＣ全角",
+    "ＡＢＣ全角"
+   ],
+   "text_hex": "a3c1a3c2a3c3c8abbdc7"
+  },
+  {
+   "s": "ｱｲｳ半角片假名",
+   "width": 13,
+   "strip": "ｱｲｳ半角片假名",
+   "trunc": [
+    "",
+    "",
+    "ｱ",
+    "ｱｲ",
+    "ｱｲｳ半",
+    "ｱｲｳ半角片",
+    "ｱｲｳ半角片假名",
+    "ｱｲｳ半角片假名",
+    "ｱｲｳ半角片假名"
+   ],
+   "text_hex": "843197338431973484319735b0ebbdc7c6acbcd9c3fb"
+  },
+  {
+   "s": "😀🍜",
+   "width": 4,
+   "strip": "😀🍜",
+   "trunc": [
+    "",
+    "",
+    "",
+    "😀",
+    "😀🍜",
+    "😀🍜",
+    "😀🍜",
+    "😀🍜",
+    "😀🍜"
+   ],
+   "text_hex": "9439fc369439b930"
+  },
+  {
+   "s": "𠀀ก鱼",
+   "width": 5,
+   "strip": "𠀀ก鱼",
+   "trunc": [
+    "",
+    "",
+    "",
+    "𠀀",
+    "𠀀ก鱼",
+    "𠀀ก鱼",
+    "𠀀ก鱼",
+    "𠀀ก鱼",
+    "𠀀ก鱼"
+   ],
+   "text_hex": "953282368132ce39d3e3"
+  },
+  {
+   "s": "é",
+   "width": 1,
+   "strip": "é",
+   "trunc": [
+    "",
+    "",
+    "é",
+    "é",
+    "é",
+    "é",
+    "é",
+    "é",
+    "é"
+   ],
+   "text_hex": "a8a6"
+  },
+  {
+   "s": "　—·…",
+   "width": 5,
+   "strip": "　—·…",
+   "trunc": [
+    "",
+    "",
+    "",
+    "　",
+    "　—·…",
+    "　—·…",
+    "　—·…",
+    "　—·…",
+    "　—·…"
+   ],
+   "text_hex": "a1a1a1aaa1a4a1ad"
+  },
+  {
+   "s": "鱼\u001bp\u0000\u0019ú豆\u001dVB\u0003腐\u001b@粒DEL末",
+   "width": 27,
+   "strip": "鱼pú豆VB腐@粒DEL末",
+   "trunc": [
+    "",
+    "",
+    "",
+    "鱼",
+    "鱼\u001bp\u0000",
+    "鱼\u001bp\u0000\u0019ú豆\u001d",
+    "鱼\u001bp\u0000\u0019ú豆\u001dVB\u0003腐\u001b@粒DEL末",
+    "鱼\u001bp\u0000\u0019ú豆\u001dVB\u0003腐\u001b@粒DEL末",
+    "鱼\u001bp\u0000\u0019ú豆\u001dVB\u0003腐\u001b@粒DEL末"
+   ],
+   "text_hex": "d3e370a8b2b6b95642b8af40c1a344454cc4a9"
+  },
+  {
+   "s": "行1\n行2\t列",
+   "width": 10,
+   "strip": "行1\n行2\t列",
+   "trunc": [
+    "",
+    "",
+    "",
+    "行",
+    "行1\n",
+    "行1\n行2\t列",
+    "行1\n行2\t列",
+    "行1\n行2\t列",
+    "行1\n行2\t列"
+   ],
+   "text_hex": "d0d0310ad0d03209c1d0"
+  },
+  {
+   "s": "",
+   "width": 6,
+   "strip": "",
+   "trunc": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "text_hex": "aaa1a7a0a2aba9a3fea084308130"
+  },
+  {
+   "s": "￿� ",
+   "width": 3,
+   "strip": "￿� ",
+   "trunc": [
+    "",
+    "",
+    "￿",
+    "￿�",
+    "￿� ",
+    "￿� ",
+    "￿� ",
+    "￿� ",
+    "￿� "
+   ],
+   "text_hex": "8431a4398431a43781308432"
+  },
+  {
+   "s": "麻婆豆腐加辣不要花椒多放葱花老板亲自下厨版本二号测试一二三四五六七八九十",
+   "width": 72,
+   "strip": "麻婆豆腐加辣不要花椒多放葱花老板亲自下厨版本二号测试一二三四五六七八九十",
+   "trunc": [
+    "",
+    "",
+    "",
+    "麻",
+    "麻婆",
+    "麻婆豆腐加",
+    "麻婆豆腐加辣不要花椒多放葱花老板亲自下厨版本二",
+    "麻婆豆腐加辣不要花椒多放葱花老板亲自下厨版本二号",
+    "麻婆豆腐加辣不要花椒多放葱花老板亲自下厨版本二号测试一二三四五六七八九十"
+   ],
+   "text_hex": "c2e9c6c5b6b9b8afbcd3c0b1b2bbd2aabba8bdb7b6e0b7c5b4d0bba8c0cfb0e5c7d7d7d4cfc2b3f8b0e6b1beb6febac5b2e2cad4d2bbb6fec8fdcbc4cee5c1f9c6dfb0cbbec5caae"
+  },
+  {
+   "s": "Extra Spicy Eggplant With No Coriander And Less Oil Please Thanks",
+   "width": 65,
+   "strip": "Extra Spicy Eggplant With No Coriander And Less Oil Please Thanks",
+   "trunc": [
+    "",
+    "",
+    "E",
+    "Ex",
+    "Extra",
+    "Extra Spic",
+    "Extra Spicy Eggplant With No Coriander And Less",
+    "Extra Spicy Eggplant With No Coriander And Less ",
+    "Extra Spicy Eggplant With No Coriander And Less Oil Please Thanks"
+   ],
+   "text_hex": "457874726120537069637920456767706c616e742057697468204e6f20436f7269616e64657220416e64204c657373204f696c20506c65617365205468616e6b73"
+  },
+  {
+   "s": "¥88.0 （大份）—备注：勿放香菜！",
+   "width": 31,
+   "strip": "¥88.0 （大份）—备注：勿放香菜！",
+   "trunc": [
+    "",
+    "",
+    "¥",
+    "¥8",
+    "¥88.0",
+    "¥88.0 （大",
+    "¥88.0 （大份）—备注：勿放香菜！",
+    "¥88.0 （大份）—备注：勿放香菜！",
+    "¥88.0 （大份）—备注：勿放香菜！"
+   ],
+   "text_hex": "8130843638382e3020a3a8b4f3b7dda3a9a1aab1b8d7a2a3bacef0b7c5cfe3b2cba3a1"
+  },
+  {
+   "s": "⺀〿぀꓏가︐！｠￠",
+   "width": 15,
+   "strip": "⺀〿぀꓏가︐！｠￠",
+   "trunc": [
+    "",
+    "",
+    "",
+    "⺀",
+    "⺀〿぀꓏",
+    "⺀〿぀꓏가︐",
+    "⺀〿぀꓏가︐！｠￠",
+    "⺀〿぀꓏가︐！｠￠",
+    "⺀〿぀꓏가︐！｠￠"
+   ],
+   "text_hex": "8138fd388139a6348139a635823695348237cf3584318236a3a184319536a1e9"
+  }
+ ],
+ "cols": [
+  {
+   "op": "two",
+   "args": [
+    "",
+    ""
+   ],
+   "columns": 32,
+   "hex": "20202020202020202020202020202020202020202020202020202020202020200a"
+  },
+  {
+   "op": "two",
+   "args": [
+    "宫保鸡丁",
+    "1/份"
+   ],
+   "columns": 32,
+   "hex": "b9acb1a3bca6b6a12020202020202020202020202020202020202020312fb7dd0a"
+  },
+  {
+   "op": "two",
+   "args": [
+    "宫保鸡丁",
+    "12/份"
+   ],
+   "columns": 32,
+   "hex": "b9acb1a3bca6b6a12020202020202020202020202020202020202031322fb7dd0a"
+  },
+  {
+   "op": "two",
+   "args": [
+    "Extra Spicy Eggplant With No Coriander Please",
+    "1/份"
+   ],
+   "columns": 32,
+   "hex": "457874726120537069637920456767706c616e742057697468204e20312fb7dd0a"
+  },
+  {
+   "op": "two",
+   "args": [
+    "中文中文中文",
+    "1234567890123"
+   ],
+   "columns": 32,
+   "hex": "d6d0cec4d6d0cec4d6d0cec420202020202020313233343536373839303132330a"
+  },
+  {
+   "op": "two",
+   "args": [
+    "鱼",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   ],
+   "columns": 32,
+   "hex": "d3e30a1b61027878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878780a1b6100"
+  },
+  {
+   "op": "two",
+   "args": [
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "鱼"
+   ],
+   "columns": 32,
+   "hex": "787878787878787878787878787878787878787878787878787878787820d3e30a"
+  },
+  {
+   "op": "three",
+   "args": [
+    "麻婆豆腐",
+    "8.8  1",
+    "8.8"
+   ],
+   "columns": 32,
+   "hex": "c2e9c6c5b6b9b8af2020202020202020382e3820203120202020202020382e380a"
+  },
+  {
+   "op": "three",
+   "args": [
+    "Extra Spicy Eggplant With No Coriander Please",
+    "8.8",
+    "88.8"
+   ],
+   "columns": 32,
+   "hex": "45787472612053706963792020202020202020382e3820202020202038382e380a"
+  },
+  {
+   "op": "three",
+   "args": [
+    "",
+    "",
+    ""
+   ],
+   "columns": 32,
+   "hex": "20202020202020202020202020202020202020202020202020202020202020200a"
+  },
+  {
+   "op": "hr",
+   "args": [],
+   "columns": 32,
+   "hex": "2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0a"
+  },
+  {
+   "op": "hr_eq",
+   "args": [],
+   "columns": 32,
+   "hex": "3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d0a"
+  },
+  {
+   "op": "two",
+   "args": [
+    "",
+    ""
+   ],
+   "columns": 42,
+   "hex": "2020202020202020202020202020202020202020202020202020202020202020202020202020202020200a"
+  },
+  {
+   "op": "two",
+   "args": [
+    "宫保鸡丁",
+    "1/份"
+   ],
+   "columns": 42,
+   "hex": "b9acb1a3bca6b6a1202020202020202020202020202020202020202020202020202020202020312fb7dd0a"
+  },
+  {
+   "op": "two",
+   "args": [
+    "宫保鸡丁",
+    "12/份"
+   ],
+   "columns": 42,
+   "hex": "b9acb1a3bca6b6a1202020202020202020202020202020202020202020202020202020202031322fb7dd0a"
+  },
+  {
+   "op": "two",
+   "args": [
+    "Extra Spicy Eggplant With No Coriander Please",
+    "1/份"
+   ],
+   "columns": 42,
+   "hex": "457874726120537069637920456767706c616e742057697468204e6f20436f7269616e646520312fb7dd0a"
+  },
+  {
+   "op": "two",
+   "args": [
+    "中文中文中文",
+    "1234567890123"
+   ],
+   "columns": 42,
+   "hex": "d6d0cec4d6d0cec4d6d0cec42020202020202020202020202020202020313233343536373839303132330a"
+  },
+  {
+   "op": "two",
+   "args": [
+    "鱼",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   ],
+   "columns": 42,
+   "hex": "d3e30a1b61027878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878780a1b6100"
+  },
+  {
+   "op": "two",
+   "args": [
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "鱼"
+   ],
+   "columns": 42,
+   "hex": "78787878787878787878787878787878787878787878787878787878787878787878787878787820d3e30a"
+  },
+  {
+   "op": "three",
+   "args": [
+    "麻婆豆腐",
+    "8.8  1",
+    "8.8"
+   ],
+   "columns": 42,
+   "hex": "c2e9c6c5b6b9b8af202020202020202020202020202020202020382e3820203120202020202020382e380a"
+  },
+  {
+   "op": "three",
+   "args": [
+    "Extra Spicy Eggplant With No Coriander Please",
+    "8.8",
+    "88.8"
+   ],
+   "columns": 42,
+   "hex": "457874726120537069637920456767706c616e74205720202020202020382e3820202020202038382e380a"
+  },
+  {
+   "op": "three",
+   "args": [
+    "",
+    "",
+    ""
+   ],
+   "columns": 42,
+   "hex": "2020202020202020202020202020202020202020202020202020202020202020202020202020202020200a"
+  },
+  {
+   "op": "hr",
+   "args": [],
+   "columns": 42,
+   "hex": "2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0a"
+  },
+  {
+   "op": "hr_eq",
+   "args": [],
+   "columns": 42,
+   "hex": "3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d0a"
+  },
+  {
+   "op": "two",
+   "args": [
+    "",
+    ""
+   ],
+   "columns": 48,
+   "hex": "2020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020200a"
+  },
+  {
+   "op": "two",
+   "args": [
+    "宫保鸡丁",
+    "1/份"
+   ],
+   "columns": 48,
+   "hex": "b9acb1a3bca6b6a1202020202020202020202020202020202020202020202020202020202020202020202020312fb7dd0a"
+  },
+  {
+   "op": "two",
+   "args": [
+    "宫保鸡丁",
+    "12/份"
+   ],
+   "columns": 48,
+   "hex": "b9acb1a3bca6b6a1202020202020202020202020202020202020202020202020202020202020202020202031322fb7dd0a"
+  },
+  {
+   "op": "two",
+   "args": [
+    "Extra Spicy Eggplant With No Coriander Please",
+    "1/份"
+   ],
+   "columns": 48,
+   "hex": "457874726120537069637920456767706c616e742057697468204e6f20436f7269616e64657220506c656120312fb7dd0a"
+  },
+  {
+   "op": "two",
+   "args": [
+    "中文中文中文",
+    "1234567890123"
+   ],
+   "columns": 48,
+   "hex": "d6d0cec4d6d0cec4d6d0cec42020202020202020202020202020202020202020202020313233343536373839303132330a"
+  },
+  {
+   "op": "two",
+   "args": [
+    "鱼",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   ],
+   "columns": 48,
+   "hex": "d3e30a1b61027878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878780a1b6100"
+  },
+  {
+   "op": "two",
+   "args": [
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "鱼"
+   ],
+   "columns": 48,
+   "hex": "78787878787878787878787878787878787878787878787878787878787878787878787878787878787878787820d3e30a"
+  },
+  {
+   "op": "three",
+   "args": [
+    "麻婆豆腐",
+    "8.8  1",
+    "8.8"
+   ],
+   "columns": 48,
+   "hex": "c2e9c6c5b6b9b8af202020202020202020202020202020202020202020202020382e3820203120202020202020382e380a"
+  },
+  {
+   "op": "three",
+   "args": [
+    "Extra Spicy Eggplant With No Coriander Please",
+    "8.8",
+    "88.8"
+   ],
+   "columns": 48,
+   "hex": "457874726120537069637920456767706c616e742057697468204e6f20202020202020382e3820202020202038382e380a"
+  },
+  {
+   "op": "three",
+   "args": [
+    "",
+    "",
+    ""
+   ],
+   "columns": 48,
+   "hex": "2020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020200a"
+  },
+  {
+   "op": "hr",
+   "args": [],
+   "columns": 48,
+   "hex": "2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0a"
+  },
+  {
+   "op": "hr_eq",
+   "args": [],
+   "columns": 48,
+   "hex": "3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d0a"
+  }
+ ],
+ "misc": {
+  "size": [
+   [
+    1,
+    1,
+    "1d2100"
+   ],
+   [
+    1,
+    2,
+    "1d2101"
+   ],
+   [
+    1,
+    3,
+    "1d2102"
+   ],
+   [
+    2,
+    1,
+    "1d2110"
+   ],
+   [
+    2,
+    2,
+    "1d2111"
+   ],
+   [
+    2,
+    3,
+    "1d2112"
+   ],
+   [
+    3,
+    1,
+    "1d2120"
+   ],
+   [
+    3,
+    2,
+    "1d2121"
+   ],
+   [
+    3,
+    3,
+    "1d2122"
+   ]
+  ],
+  "feed": [
+   [
+    0,
+    "1b6400"
+   ],
+   [
+    1,
+    "1b6401"
+   ],
+   [
+    3,
+    "1b6403"
+   ],
+   [
+    255,
+    "1b64ff"
+   ]
+  ],
+  "align": [
+   [
+    0,
+    "1b6100"
+   ],
+   [
+    1,
+    "1b6101"
+   ],
+   [
+    2,
+    "1b6102"
+   ]
+  ],
+  "bold": [
+   [
+    true,
+    "1b4501"
+   ],
+   [
+    false,
+    "1b4500"
+   ]
+  ],
+  "center": "1b6101bed3d6d00a1b6100",
+  "init_cut_kick": "1b401c261c43001b64011d5642031b700019fa1b700119fa",
+  "status_query": [
+   "100401",
+   "100402",
+   "100404"
+  ]
+ },
+ "serials": [
+  {
+   "serial": 0,
+   "footer_hex": "c1f7cbaebac5204e6f2e30303030300a"
+  },
+  {
+   "serial": 1,
+   "footer_hex": "c1f7cbaebac5204e6f2e30303030310a"
+  },
+  {
+   "serial": 9,
+   "footer_hex": "c1f7cbaebac5204e6f2e30303030390a"
+  },
+  {
+   "serial": 63,
+   "footer_hex": "c1f7cbaebac5204e6f2e30303036330a"
+  },
+  {
+   "serial": 99999,
+   "footer_hex": "c1f7cbaebac5204e6f2e39393939390a"
+  },
+  {
+   "serial": 100000,
+   "footer_hex": "c1f7cbaebac5204e6f2e30303030300a"
+  },
+  {
+   "serial": 1234567,
+   "footer_hex": "c1f7cbaebac5204e6f2e33343536370a"
+  }
+ ],
+ "inject": [
+  {
+   "label": "plain",
+   "payload": "1b401c261c4300b2cb0a1b64011d564203",
+   "serial": 1,
+   "hex": "1b401c261c4300b2cb0ac1f7cbaebac5204e6f2e30303030310a1b64011d564203"
+  },
+  {
+   "label": "plain",
+   "payload": "1b401c261c4300b2cb0a1b64011d564203",
+   "serial": 63,
+   "hex": "1b401c261c4300b2cb0ac1f7cbaebac5204e6f2e30303036330a1b64011d564203"
+  },
+  {
+   "label": "plain",
+   "payload": "1b401c261c4300b2cb0a1b64011d564203",
+   "serial": 123456,
+   "hex": "1b401c261c4300b2cb0ac1f7cbaebac5204e6f2e32333435360a1b64011d564203"
+  },
+  {
+   "label": "with_footer",
+   "payload": "1b401c261c4300b2cb0ac1f7cbaebac5204e6f2e30303030300a0a1b64011d564203",
+   "serial": 1,
+   "hex": "1b401c261c4300b2cb0ac1f7cbaebac5204e6f2e30303030300a0ac1f7cbaebac5204e6f2e30303030310a1b64011d564203"
+  },
+  {
+   "label": "with_footer",
+   "payload": "1b401c261c4300b2cb0ac1f7cbaebac5204e6f2e30303030300a0a1b64011d564203",
+   "serial": 63,
+   "hex": "1b401c261c4300b2cb0ac1f7cbaebac5204e6f2e30303030300a0ac1f7cbaebac5204e6f2e30303036330a1b64011d564203"
+  },
+  {
+   "label": "with_footer",
+   "payload": "1b401c261c4300b2cb0ac1f7cbaebac5204e6f2e30303030300a0a1b64011d564203",
+   "serial": 123456,
+   "hex": "1b401c261c4300b2cb0ac1f7cbaebac5204e6f2e30303030300a0ac1f7cbaebac5204e6f2e32333435360a1b64011d564203"
+  },
+  {
+   "label": "no_cut",
+   "payload": "1b401c261c4300b2cb0a",
+   "serial": 1,
+   "hex": "1b401c261c4300b2cb0ac1f7cbaebac5204e6f2e30303030310a"
+  },
+  {
+   "label": "no_cut",
+   "payload": "1b401c261c4300b2cb0a",
+   "serial": 63,
+   "hex": "1b401c261c4300b2cb0ac1f7cbaebac5204e6f2e30303036330a"
+  },
+  {
+   "label": "no_cut",
+   "payload": "1b401c261c4300b2cb0a",
+   "serial": 123456,
+   "hex": "1b401c261c4300b2cb0ac1f7cbaebac5204e6f2e32333435360a"
+  },
+  {
+   "label": "empty",
+   "payload": "",
+   "serial": 1,
+   "hex": "c1f7cbaebac5204e6f2e30303030310a"
+  },
+  {
+   "label": "empty",
+   "payload": "",
+   "serial": 63,
+   "hex": "c1f7cbaebac5204e6f2e30303036330a"
+  },
+  {
+   "label": "empty",
+   "payload": "",
+   "serial": 123456,
+   "hex": "c1f7cbaebac5204e6f2e32333435360a"
+  }
+ ],
+ "tables": {
+  "gb18030_sha256": "3a742cd3c021d9399d65a776b2941c3a5a63fdc7d93fd38daafd337f2ae88dd2",
+  "wide_sha256": "bca65883aa8da9cf6dea8635d44aadb22fe0478f58b99fda06b8e4eb7138a4c4"
+ }
+}
